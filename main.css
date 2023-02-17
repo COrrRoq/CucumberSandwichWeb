@@ -1,0 +1,20 @@
+body {
+    padding: 25px;
+    background-color:white;
+    color: black;
+    font-size: 25px;
+  };
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+#navoptions {
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+#elsewhere {
+    font-size: 24pt;
+}
