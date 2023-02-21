@@ -1,21 +1,3 @@
-const cucumber = require("@cucumber/cucumber");
-//const Fibonacci = require("../../Fibonacci");
-
-class CustomWorld {
-    constructor() {
-    //    this. = new ();
-        this.throw = false;
-    }
-    hasThrown() {
-        return this.thrown;
-    }
-    itThrew() {
-        this.thrown = true;
-    }
-}
-
-cucumber.setWorldConstructor(CustomWorld);
-
 require('chromedriver'); // So executable is available
 const chrome = require('selenium-webdriver/chrome');
 const webdriver = require('selenium-webdriver');

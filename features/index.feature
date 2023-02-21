@@ -1,6 +1,5 @@
-Feature: Static Web Page
+Feature: Website
 
-
-    Scenario: Title exists
-    When the webpage loads
-    Then there is a title
+    Scenario: Title exists initially
+    Given the webpage is loaded
+    Then the title is "CAT'S NEW WEB PAGE"
