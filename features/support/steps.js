@@ -21,9 +21,7 @@ AfterAll(async function () {
 
 
 When('the button is clicked', async function () {
-    //const buttonclick = await browser.getElement('button');
     await browser.elementClick("button")
-    //await browser.waitForElementByCss('titles', timeout/2);
 });
 
 Then('the background turns grey', async function() {
